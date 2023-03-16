@@ -1,4 +1,4 @@
-# Generate namspace
+# Namespace generation
 
 This asset is for generating or regenerating namespaces in scripts.
 
