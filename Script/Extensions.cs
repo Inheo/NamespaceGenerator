@@ -14,11 +14,12 @@ namespace Inheo.GenerateNamaspace
             var index = path.LastIndexOf(Path.DirectorySeparatorChar);
             path = index == -1 ? string.Empty : path.Substring(0, index);
 
-            index = path.LastIndexOf("Scripts");
 
-            if (index != -1)
+            foreach (var folder in GetDontIncludeFolders())
             {
-                foreach (var folder in GetDontIncludeFolders())
+                index = path.LastIndexOf(folder);
+
+                if (index != -1)
                 {
                     if ((index == 0 || path[index - 1] == Path.DirectorySeparatorChar) && (index + folder.Length == path.Length || path[index + folder.Length] == Path.DirectorySeparatorChar))
                         path = index + folder.Length == path.Length ? string.Empty : path.Substring(index + folder.Length + 1);
