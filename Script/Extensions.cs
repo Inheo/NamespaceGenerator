@@ -32,7 +32,7 @@ namespace Inheo.GenerateNamaspace
             return @namespace;
         }
 
-        public static string[] GetDontIncludeFolders() => GetSettings().DontIncludeFolders;
+        public static string[] GetDontIncludeFolders() => GetSettings().DontIncludeFoldersInNamespace;
 
         public static Settings GetSettings()
         {
