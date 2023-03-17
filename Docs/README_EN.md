@@ -11,7 +11,7 @@ If you call this context menu for folder or several folders, then namespaces wil
 
 To regenerate existing namespaces in scripts use context menu `Generate` > `Namespaces For Seleccted C# Scripts (Forced)`. It is also work for folders
 
-# Настройка генерации пространства имен
+# Setting up namespace generation
 
 To set ignored folders to namespaces, call the settings window with the menu `Window` > `Generator` > `Settings`.
 
