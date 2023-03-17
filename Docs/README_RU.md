@@ -8,4 +8,14 @@
 
 ![image](https://user-images.githubusercontent.com/62827937/225692870-397ecf67-7af6-4f58-8c10-f9d66da6c1f9.png)
 
-Для перегенерации уже существующих пространства имен в скриптах воспользуйтесь контекстным меню `Generate` > `Namespaces For Seleccted C# Scripts (Forced)`. Также работает и для папок
+Для перегенерации уже существующих пространства имен в скриптах воспользуйтесь контекстным меню `Generate` > `Namespaces For Seleccted C# Scripts (Forced)`. Также работает и для папок.
+
+# Настройка генерации пространства имен
+
+Чтобы настроить игнорируемые папки в пространства имен вызовите окно настройки с помощью меню `Window` > `Generator` > `Settings`.
+
+<img width="375" src="https://user-images.githubusercontent.com/62827937/225817416-1b921866-8958-479a-8c7f-9fe0090cf550.png">
+
+`Dont Include Folders In Namespace` - это массив названий папок, которые не включаются в пространства имен при генерации.
+
+<img width="547" src="https://user-images.githubusercontent.com/62827937/225817479-a456d362-23ae-4fe4-96b6-1e4c3419a66b.png">
